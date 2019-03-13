@@ -3,7 +3,7 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var axios = require("axios");
-//var fs = require("fs");
+var fs = require("fs");
 
 //"https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
 
