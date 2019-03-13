@@ -39,10 +39,4 @@ spotify
     console.log(err);
   });
  
-spotify.search({ type: 'track', query: songName }, function(err, data) {
-  if (err) {
-    return console.log('Error occurred: ' + err);
-  }
- 
-console.log(data); 
-});
+//I am getting an error about the .env
